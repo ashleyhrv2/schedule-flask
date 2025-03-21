@@ -27,4 +27,4 @@ def DisplayInfo():
     return render_template('output2.html',headings = headings,data = data)
 
 if __name__=='__main__':
-    app.run
+    app.run()
